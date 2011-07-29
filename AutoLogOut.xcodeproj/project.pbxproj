@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B42391E613E1CF740058E70C /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B42391E513E1CF740058E70C /* Carbon.framework */; };
+		B43568E313E21AC7003BB60E /* ALAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = B43568E213E21AC7003BB60E /* ALAlertController.m */; };
+		B43568EC13E21B27003BB60E /* Alert.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47B227313E216040011E10F /* Alert.xib */; };
+		B43568ED13E21B27003BB60E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B47B227C13E216040011E10F /* InfoPlist.strings */; };
+		B43568EF13E21B27003BB60E /* LogOut.png in Resources */ = {isa = PBXBuildFile; fileRef = B47B228013E216040011E10F /* LogOut.png */; };
+		B43568F013E21B27003BB60E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47B228C13E216170011E10F /* MainMenu.xib */; };
+		B4657FAA13E1B5A7007A868F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4657FA913E1B5A7007A868F /* Cocoa.framework */; };
+		B47B228513E216040011E10F /* AutoLogOutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B227713E216040011E10F /* AutoLogOutAppDelegate.m */; };
+		B47B228B13E216040011E10F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B228113E216040011E10F /* main.m */; };
+		B4C6188413E21F4B004D299D /* AutoLogOut.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4C6188313E21F4B004D299D /* AutoLogOut.icns */; };
+		B4C6188913E235F4004D299D /* edu.baylor.AutoLogOut.manifest in Resources */ = {isa = PBXBuildFile; fileRef = B4C6188813E235F4004D299D /* edu.baylor.AutoLogOut.manifest */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B42391E513E1CF740058E70C /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		B43568E113E21AC7003BB60E /* ALAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALAlertController.h; sourceTree = SOURCE_ROOT; };
+		B43568E213E21AC7003BB60E /* ALAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALAlertController.m; sourceTree = SOURCE_ROOT; };
+		B4657FA513E1B5A7007A868F /* AutoLogOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLogOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4657FA913E1B5A7007A868F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		B4657FAC13E1B5A7007A868F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		B4657FAD13E1B5A7007A868F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B4657FAE13E1B5A7007A868F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B47B227313E216040011E10F /* Alert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Alert.xib; sourceTree = SOURCE_ROOT; };
+		B47B227413E216040011E10F /* AutoLogOut-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AutoLogOut-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B47B227513E216040011E10F /* AutoLogOut-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoLogOut-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		B47B227613E216040011E10F /* AutoLogOutAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLogOutAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B47B227713E216040011E10F /* AutoLogOutAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLogOutAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B47B227B13E216040011E10F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = Credits.rtf; sourceTree = "<group>"; };
+		B47B227D13E216040011E10F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		B47B228013E216040011E10F /* LogOut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogOut.png; sourceTree = SOURCE_ROOT; };
+		B47B228113E216040011E10F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		B47B228D13E216170011E10F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		B4C6188313E21F4B004D299D /* AutoLogOut.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AutoLogOut.icns; sourceTree = "<group>"; };
+		B4C6188813E235F4004D299D /* edu.baylor.AutoLogOut.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = edu.baylor.AutoLogOut.manifest; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4657FA213E1B5A7007A868F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42391E613E1CF740058E70C /* Carbon.framework in Frameworks */,
+				B4657FAA13E1B5A7007A868F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4657F9A13E1B5A6007A868F = {
+			isa = PBXGroup;
+			children = (
+				B4C6188313E21F4B004D299D /* AutoLogOut.icns */,
+				B47B228F13E217080011E10F /* Alert Window */,
+				B47B229013E217460011E10F /* Resources */,
+				B47B229113E217670011E10F /* AutoLogOut */,
+				B4657FA813E1B5A7007A868F /* Frameworks */,
+				B4657FA613E1B5A7007A868F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4657FA613E1B5A7007A868F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4657FA513E1B5A7007A868F /* AutoLogOut.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4657FA813E1B5A7007A868F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B42391E513E1CF740058E70C /* Carbon.framework */,
+				B4657FA913E1B5A7007A868F /* Cocoa.framework */,
+				B4657FAB13E1B5A7007A868F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4657FAB13E1B5A7007A868F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4657FAC13E1B5A7007A868F /* AppKit.framework */,
+				B4657FAD13E1B5A7007A868F /* CoreData.framework */,
+				B4657FAE13E1B5A7007A868F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		B47B228F13E217080011E10F /* Alert Window */ = {
+			isa = PBXGroup;
+			children = (
+				B43568E113E21AC7003BB60E /* ALAlertController.h */,
+				B43568E213E21AC7003BB60E /* ALAlertController.m */,
+				B47B227313E216040011E10F /* Alert.xib */,
+			);
+			name = "Alert Window";
+			path = AutoLogOut;
+			sourceTree = "<group>";
+		};
+		B47B229013E217460011E10F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B47B227A13E216040011E10F /* Credits.rtf */,
+				B4C6188813E235F4004D299D /* edu.baylor.AutoLogOut.manifest */,
+				B47B227C13E216040011E10F /* InfoPlist.strings */,
+				B47B227413E216040011E10F /* AutoLogOut-Info.plist */,
+				B47B228013E216040011E10F /* LogOut.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B47B229113E217670011E10F /* AutoLogOut */ = {
+			isa = PBXGroup;
+			children = (
+				B47B227513E216040011E10F /* AutoLogOut-Prefix.pch */,
+				B47B227613E216040011E10F /* AutoLogOutAppDelegate.h */,
+				B47B227713E216040011E10F /* AutoLogOutAppDelegate.m */,
+				B47B228113E216040011E10F /* main.m */,
+				B47B228C13E216170011E10F /* MainMenu.xib */,
+			);
+			name = AutoLogOut;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4657FA413E1B5A7007A868F /* AutoLogOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4657FD813E1B5A8007A868F /* Build configuration list for PBXNativeTarget "AutoLogOut" */;
+			buildPhases = (
+				B4657FA113E1B5A7007A868F /* Sources */,
+				B4657FA213E1B5A7007A868F /* Frameworks */,
+				B4657FA313E1B5A7007A868F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLogOut;
+			productName = AutoLogOut;
+			productReference = B4657FA513E1B5A7007A868F /* AutoLogOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4657F9C13E1B5A6007A868F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = B4657F9F13E1B5A6007A868F /* Build configuration list for PBXProject "AutoLogOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4657F9A13E1B5A6007A868F;
+			productRefGroup = B4657FA613E1B5A7007A868F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4657FA413E1B5A7007A868F /* AutoLogOut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4657FA313E1B5A7007A868F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43568EC13E21B27003BB60E /* Alert.xib in Resources */,
+				B43568ED13E21B27003BB60E /* InfoPlist.strings in Resources */,
+				B43568EF13E21B27003BB60E /* LogOut.png in Resources */,
+				B43568F013E21B27003BB60E /* MainMenu.xib in Resources */,
+				B4C6188413E21F4B004D299D /* AutoLogOut.icns in Resources */,
+				B4C6188913E235F4004D299D /* edu.baylor.AutoLogOut.manifest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4657FA113E1B5A7007A868F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47B228513E216040011E10F /* AutoLogOutAppDelegate.m in Sources */,
+				B47B228B13E216040011E10F /* main.m in Sources */,
+				B43568E313E21AC7003BB60E /* ALAlertController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B47B227A13E216040011E10F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47B227B13E216040011E10F /* en */,
+			);
+			name = Credits.rtf;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		B47B227C13E216040011E10F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47B227D13E216040011E10F /* en */,
+			);
+			name = InfoPlist.strings;
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		B47B228C13E216170011E10F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B47B228D13E216170011E10F /* en */,
+			);
+			name = MainMenu.xib;
+			path = AutoLogOut;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4657FD613E1B5A8007A868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
+			};
+			name = Debug;
+		};
+		B4657FD713E1B5A8007A868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		B4657FD913E1B5A8007A868F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLogOut-Prefix.pch";
+				INFOPLIST_FILE = "AutoLogOut-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = AutoLogOut;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4657FDA13E1B5A8007A868F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AutoLogOut-Prefix.pch";
+				INFOPLIST_FILE = "AutoLogOut-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = AutoLogOut;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4657F9F13E1B5A6007A868F /* Build configuration list for PBXProject "AutoLogOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4657FD613E1B5A8007A868F /* Debug */,
+				B4657FD713E1B5A8007A868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4657FD813E1B5A8007A868F /* Build configuration list for PBXNativeTarget "AutoLogOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4657FD913E1B5A8007A868F /* Debug */,
+				B4657FDA13E1B5A8007A868F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4657F9C13E1B5A6007A868F /* Project object */;
+}
