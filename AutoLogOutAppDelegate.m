@@ -16,10 +16,11 @@
 {
     // Default behavior should be TO perform the automatic logout.
     BOOL disableAutoLogOut = [[NSUserDefaults standardUserDefaults] boolForKey:@"disableAutoLogOut"];
-    
+
     if (disableAutoLogOut) {
         // Someone said we shouldn't log out automatically. We have nothing left to do
-        [NSApp terminate:nil];
+        NSLog(@"AutoLogOut has been disabled by user defaults.");
+        [NSApp terminate:self];
     }
     
     // Get our current idleTime (time since any HID activity)
@@ -37,7 +38,8 @@
     } else {
         
         // Haven't been idle long enough. Nothing left to do, quit the app
-        [NSApp terminate:nil];
+        NSLog(@"User idle time = %f. Does not meet threshold of %i.", idleTime, (int)idleTimeThreshold);
+        [NSApp terminate:self];
         
     }
 }

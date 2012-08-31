@@ -17,7 +17,7 @@
 		B47B228513E216040011E10F /* AutoLogOutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B227713E216040011E10F /* AutoLogOutAppDelegate.m */; };
 		B47B228B13E216040011E10F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B47B228113E216040011E10F /* main.m */; };
 		B4C6188413E21F4B004D299D /* AutoLogOut.icns in Resources */ = {isa = PBXBuildFile; fileRef = B4C6188313E21F4B004D299D /* AutoLogOut.icns */; };
-		B4C6188913E235F4004D299D /* edu.baylor.AutoLogOut.manifest in Resources */ = {isa = PBXBuildFile; fileRef = B4C6188813E235F4004D299D /* edu.baylor.AutoLogOut.manifest */; };
+		D696C55715F15B4C0064A489 /* edu.baylor.AutoLogOut.manifest in Resources */ = {isa = PBXBuildFile; fileRef = D696C55615F15B4C0064A489 /* edu.baylor.AutoLogOut.manifest */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +40,7 @@
 		B47B228113E216040011E10F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
 		B47B228D13E216170011E10F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
 		B4C6188313E21F4B004D299D /* AutoLogOut.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AutoLogOut.icns; sourceTree = "<group>"; };
-		B4C6188813E235F4004D299D /* edu.baylor.AutoLogOut.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = edu.baylor.AutoLogOut.manifest; sourceTree = "<group>"; };
+		D696C55615F15B4C0064A489 /* edu.baylor.AutoLogOut.manifest */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = edu.baylor.AutoLogOut.manifest; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,8 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				B47B227A13E216040011E10F /* Credits.rtf */,
-				B4C6188813E235F4004D299D /* edu.baylor.AutoLogOut.manifest */,
 				B47B227C13E216040011E10F /* InfoPlist.strings */,
+				D696C55615F15B4C0064A489 /* edu.baylor.AutoLogOut.manifest */,
 				B47B227413E216040011E10F /* AutoLogOut-Info.plist */,
 				B47B228013E216040011E10F /* LogOut.png */,
 			);
@@ -157,7 +157,7 @@
 		B4657F9C13E1B5A6007A868F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0420;
 			};
 			buildConfigurationList = B4657F9F13E1B5A6007A868F /* Build configuration list for PBXProject "AutoLogOut" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -186,7 +186,7 @@
 				B43568EF13E21B27003BB60E /* LogOut.png in Resources */,
 				B43568F013E21B27003BB60E /* MainMenu.xib in Resources */,
 				B4C6188413E21F4B004D299D /* AutoLogOut.icns in Resources */,
-				B4C6188913E235F4004D299D /* edu.baylor.AutoLogOut.manifest in Resources */,
+				D696C55715F15B4C0064A489 /* edu.baylor.AutoLogOut.manifest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
