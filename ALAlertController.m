@@ -24,7 +24,7 @@ static OSStatus SendAppleEventToSystemProcess(AEEventID EventToSend);
         // Pull the time we should count down from a preference file (for MCX control)
         NSInteger defaultDuration = [[NSUserDefaults standardUserDefaults] integerForKey:@"countdownDuration"];
         
-        countdownDuration = (defaultDuration && defaultDuration > 0) ? defaultDuration : 90;
+        countdownDuration = (defaultDuration && defaultDuration > 0) ? defaultDuration : 120;
         seconds = countdownDuration;
     }
     return self;
@@ -91,7 +91,7 @@ static OSStatus SendAppleEventToSystemProcess(AEEventID EventToSend);
         [timer invalidate];
         
         // Notify the user what we're doing (even though it may only appear for a split second, its a nice gesture ;))
-        [countdownText setStringValue:[NSString stringWithString:@"Force quitting all applications and loggin out..."]];
+        [countdownText setStringValue:[NSString stringWithString:@"Force quitting all applications and logging out..."]];
         
         // Kick off the log out process
         [self doLogOut:self];
